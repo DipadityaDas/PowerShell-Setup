@@ -10,7 +10,10 @@
 					"style": "powerline",
 					"powerline_symbol": "\uE0B0",
 					"foreground": "#f2ff00",
-					"background": "#323232"
+					"background": "#323232",
+					"properties": {
+						"root_icon": "\uE70F"
+					}
 				},
 				{
 					"type": "session",
