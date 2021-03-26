@@ -9,7 +9,7 @@
 					"type": "root",
 					"style": "powerline",
 					"powerline_symbol": "\uE0B0",
-					"foreground": "#f2ff00",
+					"foreground": "#00aaff",
 					"background": "#323232",
 					"properties": {
 						"root_icon": "\uE70F"
@@ -20,14 +20,14 @@
 					"style": "powerline",
 					"powerline_symbol": "\uE0B0",
 					"foreground": "#f5f5f5",
-					"background": "#1e1d1d"
+					"background": "#424242"
 				},
 				{
 					"type": "path",
 					"style": "powerline",
 					"powerline_symbol": "\uE0B0",
-					"foreground": "#1e1d1d",
-					"background": "#00aeff",
+					"foreground": "#424242",
+					"background": "#00aaff",
 					"properties": {
 						"folder_icon": "\uF115",
 						"folder_separator_icon": " \uE0B1 ",
