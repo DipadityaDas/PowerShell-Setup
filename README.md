@@ -6,9 +6,13 @@ Pre-requistes:
 - Download [Cascadia Code Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.3.3/CascadiaCode.zip)
 - Download [Oh-My-Posh](https://github.com/JanDeDobbeleer/oh-my-posh/releases)
 
-## Step 1: Setup Windows Terminal
+## Step 1: Install PowerShell 7
 
+Install PowerShell 7 as Administrator for System-wide Use(All Users).
+
+## Step 2: Install & Setup Windows Terminal
+
+1. Install Windows Terminal.
 1. Open the Windows Terminal app and then go to settings.
 2. Click on `Open JSON File`.
 3. Download the [settings.json](https://raw.githubusercontent.com/DipadityaDas/WindowsSettings/main/settings.json).
-
