@@ -22,3 +22,7 @@ Install PowerShell 7 as Administrator for System-wide Use(All Users).
 1. Open the Windows Terminal app and then go to settings.
 2. Click on `Open JSON File`.
 3. Download the [settings.json](https://raw.githubusercontent.com/DipadityaDas/WindowsSettings/main/settings.json).
+
+## Step 4: Install oh-my-posh
+
+1. Install oh-my-posh for all users.
