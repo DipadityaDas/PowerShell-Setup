@@ -26,3 +26,7 @@ Install PowerShell 7 as Administrator for System-wide Use(All Users).
 ## Step 4: Install oh-my-posh
 
 1. Install oh-my-posh for all users.
+
+## Step 5: Create a profile.ps1 inside root directory of powershell.
+
+
