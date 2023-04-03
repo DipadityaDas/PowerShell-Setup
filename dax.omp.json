@@ -38,7 +38,7 @@
           "style": "powerline",
           "powerline_symbol": "",
           "foreground": "#000000",
-          "background": "#ffeb3b",
+          "background": "#33ff00",
           "background_templates": [
             "{{ if or (.Working.Changed) (.Staging.Changed) }}#FFEB3B{{ end }}",
             "{{ if and (gt .Ahead 0) (gt .Behind 0) }}#FFCC80{{ end }}",
