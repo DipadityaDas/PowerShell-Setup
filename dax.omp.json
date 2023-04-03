@@ -31,7 +31,7 @@
           "powerline_symbol": "",
           "foreground": "#000000",
           "background": "#8030f0",
-          "template": "{{.WorkspaceName}}"
+          "template": " {{.WorkspaceName}} "
         },
         {
           "type": "git",
