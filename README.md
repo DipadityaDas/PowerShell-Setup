@@ -27,6 +27,13 @@ Install PowerShell 7 as Administrator for System-wide Use(All Users).
 
 1. Install oh-my-posh for all users.
 
+## Step 5: Install z module
+
+```code
+Install-Module z -AllowClobber -Scope AllUsers
+```
+
+
 ## Step 5: Create a profile.ps1 inside root directory of powershell.
 
 
