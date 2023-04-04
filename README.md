@@ -45,6 +45,6 @@ Install-Module -Name Terminal-Icons -Repository PSGallery -Scope AllUsers
 
 If you want to download for current user then omit `-Scope AllUsers` from the above command. 
 
-## Step 5: Create a profile.ps1 inside root directory of powershell.
+## Step 7: Create a profile.ps1 inside root directory of powershell.
 
 
