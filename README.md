@@ -30,9 +30,20 @@ Install PowerShell 7 as Administrator for System-wide Use(All Users).
 ## Step 5: Install z module
 
 ```code
-Install-Module z -AllowClobber -Scope AllUsers
+Install-Module -Name z -AllowClobber -Scope AllUsers
 ```
+> NOTE: I am downloading for all users in the systems, which needs Administrator Privileges.
 
+If you want to download for current user then omit `-Scope AllUsers` from the above command. 
+
+## Step 6: Install Terminal Icons
+
+```code
+Install-Module -Name Terminal-Icons -Repository PSGallery -Scope AllUsers
+```
+> NOTE: I am downloading for all users in the systems, which needs Administrator Privileges.
+
+If you want to download for current user then omit `-Scope AllUsers` from the above command. 
 
 ## Step 5: Create a profile.ps1 inside root directory of powershell.
 
