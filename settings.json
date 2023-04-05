@@ -38,12 +38,15 @@
     {
         "defaults": 
         {
+            "bellStyle": "none",
             "colorScheme": "Dax",
+            "cursorShape": "filledBox",
             "font": 
             {
                 "face": "CaskaydiaCove NF",
                 "size": 16.0
             },
+            "historySize": 32000,
             "useAtlasEngine": true
         },
         "list": 
