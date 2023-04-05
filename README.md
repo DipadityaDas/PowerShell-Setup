@@ -23,11 +23,11 @@ Install PowerShell 7 as Administrator for System-wide Use(All Users).
 2. Click on `Open JSON File`.
 3. Download the [settings.json](https://raw.githubusercontent.com/DipadityaDas/WindowsSettings/main/settings.json).
 
-## Step 4: Install oh-my-posh
+## Step 4: Install oh-my-posh.
 
 1. Install oh-my-posh for all users.
 
-## Step 5: Install z module
+## Step 5: Install z module.
 
 ```code
 Install-Module -Name z -AllowClobber -Scope AllUsers
@@ -36,7 +36,7 @@ Install-Module -Name z -AllowClobber -Scope AllUsers
 
 If you want to download for current user then omit `-Scope AllUsers` from the above command. 
 
-## Step 6: Install Terminal Icons
+## Step 6: Install Terminal Icons module.
 
 ```code
 Install-Module -Name Terminal-Icons -Repository PSGallery -Scope AllUsers
@@ -46,5 +46,10 @@ Install-Module -Name Terminal-Icons -Repository PSGallery -Scope AllUsers
 If you want to download for current user then omit `-Scope AllUsers` from the above command. 
 
 ## Step 7: Create a profile.ps1 inside root directory of powershell.
+
+1. Goto `C:\Program Files\PowerShell\7`
+2. Create a `profile.ps1` file.
+
+## Step 8: Add the contents of profile.ps1
 
 
