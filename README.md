@@ -52,4 +52,8 @@ If you want to download for current user then omit `-Scope AllUsers` from the ab
 
 ## Step 8: Add the contents of profile.ps1
 
+---
+## Important Links:
 
+1. [Nerd Fonts Icons](https://www.nerdfonts.com/cheat-sheet)
+2. [Pretty Powershell](https://www.youtube.com/watch?v=LuAipOW8BNQ)
