@@ -52,6 +52,7 @@ If you want to download for current user then omit `-Scope AllUsers` from the ab
 
 ## Step 8: Add the contents of profile.ps1
 
+```code
 # Aliases
 Set-Alias tt tree
 Set-Alias ll ls
@@ -73,6 +74,12 @@ Set-PSReadLineOption -Colors @{
   String             = 'Magenta' # "108" 
   ContinuationPrompt = 'Cyan'    # Multiline Command starting with '> '
 }
+
+# (Get-PSReadLineOption).ContinuationPrompt -> '> ' (Default)
+# Changing the ContinutionPrompt Character
+Set-PSReadLineOption -ContinuationPrompt '> '
+
+```
 
 ---
 ## Important Links:
