@@ -57,7 +57,8 @@ Set-Alias tt tree
 Set-Alias ll ls
 Set-Alias gg gcc
 
-
+# Prompt
+oh-my-posh init pwsh --config "C:\Program Files\PowerShell\theme\dax.omp.json" | Invoke-Expression
 
 ---
 ## Important Links:
