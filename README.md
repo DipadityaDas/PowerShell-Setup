@@ -60,6 +60,20 @@ Set-Alias gg gcc
 # Prompt
 oh-my-posh init pwsh --config "C:\Program Files\PowerShell\theme\dax.omp.json" | Invoke-Expression
 
+# Changing Colors of Input provided to Powershell prompt
+Set-PSReadLineOption -Colors @{
+  Command            = 'Cyan'    # Executable file
+  Default            = 'Yellow'  # Anything other than command
+  Number             = 'blue'    # 108 is a number
+  Member             = 'Yellow'
+  Operator           = 'Green'   # 6*6 -> * is the operator
+  Type               = 'Green'   # [int]"108" -> int is the type
+  Parameter          = 'Green'   # -s --something
+  Variable           = 'Blue'    # @something
+  String             = 'Magenta' # "108" 
+  ContinuationPrompt = 'Cyan'    # Multiline Command starting with '> '
+}
+
 ---
 ## Important Links:
 
