@@ -52,6 +52,13 @@ If you want to download for current user then omit `-Scope AllUsers` from the ab
 
 ## Step 8: Add the contents of profile.ps1
 
+# Aliases
+Set-Alias tt tree
+Set-Alias ll ls
+Set-Alias gg gcc
+
+
+
 ---
 ## Important Links:
 
