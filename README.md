@@ -79,6 +79,14 @@ Set-PSReadLineOption -Colors @{
 # Changing the ContinutionPrompt Character
 Set-PSReadLineOption -ContinuationPrompt '> '
 
+# Create Predictions using History
+set-PSReadLineOption -PredictionSource History
+set-PSReadLineOption -PredictionViewStyle ListView
+
+# Add Z as an smart alternative of cd
+Import-Module -Name z 
+
+
 ```
 
 ---
