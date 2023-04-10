@@ -34,6 +34,7 @@
     "copyOnSelect": true,
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
     "focusFollowMouse": true,
+    "launchMode": "maximized",
     "profiles": 
     {
         "defaults": 
@@ -43,8 +44,9 @@
             "cursorShape": "filledBox",
             "font": 
             {
-                "face": "CaskaydiaCove NF",
-                "size": 16.0
+                "face": "CaskaydiaCove Nerd Font",
+                "size": 16.0,
+                "weight": "semi-light"
             },
             "historySize": 32000,
             "useAtlasEngine": true
