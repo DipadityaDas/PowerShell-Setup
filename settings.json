@@ -1,10 +1,10 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": 
+    "actions":
     [
         {
-            "command": 
+            "command":
             {
                 "action": "copy",
                 "singleLine": false
@@ -20,7 +20,7 @@
             "keys": "ctrl+shift+f"
         },
         {
-            "command": 
+            "command":
             {
                 "action": "splitPane",
                 "split": "auto",
@@ -33,25 +33,29 @@
     "copyFormatting": "none",
     "copyOnSelect": true,
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+    "disableAnimations": true,
+    "experimental.rendering.forceFullRepaint": true,
     "focusFollowMouse": true,
     "launchMode": "maximized",
-    "profiles": 
+    "profiles":
     {
-        "defaults": 
+        "defaults":
         {
+            "antialiasingMode": "cleartype",
             "bellStyle": "none",
             "colorScheme": "Dax",
             "cursorShape": "filledBox",
-            "font": 
+            "font":
             {
                 "face": "CaskaydiaCove Nerd Font",
                 "size": 16.0,
                 "weight": "semi-light"
             },
             "historySize": 32000,
-            "useAtlasEngine": true
+            "scrollbarState": "visible",
+            "useAtlasEngine": false
         },
-        "list": 
+        "list":
         [
             {
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
@@ -84,7 +88,7 @@
             }
         ]
     },
-    "schemes": 
+    "schemes":
     [
         {
             "background": "#0C0C0C",
@@ -133,7 +137,7 @@
             "yellow": "#C19C00"
         },
         {
-            "background": "#000000",
+            "background": "#121212",
             "black": "#333333",
             "blue": "#008DF8",
             "brightBlack": "#595959",
@@ -144,14 +148,14 @@
             "brightRed": "#FF2740",
             "brightWhite": "#FFFFFF",
             "brightYellow": "#FFFF00",
-            "cursorColor": "#FFFFFF",
+            "cursorColor": "#0008ff",
             "cyan": "#00D8EB",
             "foreground": "#FFFAF4",
             "green": "#00FF00",
             "name": "Dax",
             "purple": "#6D43A6",
             "red": "#FF0000",
-            "selectionBackground": "#FFFFFF",
+            "selectionBackground": "#424242",
             "white": "#FFFFFF",
             "yellow": "#FFFF00"
         },
@@ -317,5 +321,6 @@
             "yellow": "#808000"
         }
     ],
+    "showTerminalTitleInTitlebar": false,
     "themes": []
 }
