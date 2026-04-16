@@ -6,9 +6,8 @@
 Set-Alias tt tree
 Set-Alias ll ls
 
-# Prompt
-oh-my-posh init pwsh --config "C:\Program Files\PowerShell\theme\dax.omp.json" | Invoke-Expression
-
+# starship Prompt
+Invoke-Expression (&starship init powershell)
 # Changing Colors of Input provided to Powershell prompt
 Set-PSReadLineOption -Colors @{
 	Command            = 'Cyan'    # Executable file
@@ -22,9 +21,7 @@ Set-PSReadLineOption -Colors @{
 	String             = 'Magenta' # "108"
 	ContinuationPrompt = 'Cyan'    # Multiline Command starting with '> '
 }
-
 # (Get-PSReadLineOption).ContinuationPrompt -> '> ' (Default)
-# Changing the ContinutionPrompt Character
 Set-PSReadLineOption -ContinuationPrompt '> '
 
 # Create Predictions using History
@@ -33,6 +30,3 @@ set-PSReadLineOption -PredictionViewStyle ListView
 
 # Add Z as an smart alternative of cd
 Import-Module -Name z
-
-
-
